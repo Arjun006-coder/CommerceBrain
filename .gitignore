@@ -1,0 +1,12 @@
+# Essential Ignore (Prevents git add . from hanging or bloating repo)
+node_modules/
+**/node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+backend/models/
+data/
+*.log
+.gemini/
+.env
